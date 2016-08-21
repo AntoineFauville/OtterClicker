@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6B08828B-40BD-6550-ED0F-3AB43E090378}") = "Clicker-master", "Assembly-CSharp.csproj", "{FA656A20-62FD-F8B6-4909-006D214D7827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA656A20-62FD-F8B6-4909-006D214D7827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA656A20-62FD-F8B6-4909-006D214D7827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA656A20-62FD-F8B6-4909-006D214D7827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA656A20-62FD-F8B6-4909-006D214D7827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

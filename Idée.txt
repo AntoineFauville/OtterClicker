@@ -1,0 +1,25 @@
+Idée : 
+
+	- Systeme de reset ? ( Reset permettrait de remettre à zero la partie tout en ajoutant un bonus ) 
+		
+
+	Idée reset:
+	1:	On gagne des points de "Soutiens Loutriens". Chaques points augmente en fonction du nombre de C/s actuel ? 
+		Si on reset avec 500 C/s on a 1 SL,
+		Si on reset avec 50000 C/s on a 6 SL par exemple.
+		1 SL donne 0.01 C/s bonus total. donc 0.01 * 6 au debut d'une partie. les premiers reset on arrivera à 5C/s sans améliorations du coup
+		Par la suite on a direct 50 voir 100, voir plus.
+	
+	2: 	Lorsqu'on reset on gagne un pourcentage fixe lorsqu'on atteind le dernier objet de clic.
+		Lorsqu'on arrive à la dark etoile loutre, possibilité de reset et avantage en fonction du nombre de celle ci.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	3: 	Choix d'un bonus soit c/s soit c/c. ( Méthode appliqué dans cette version).
+
+
+		- créer les boutons qui permettront de choisir l'upgrade sur le clic ou sur les secondes.
+		- créer une zone texte qui indiquerait la valeur des upgrade actuelles ( softReset points).
+		- les "aides" affichent bien la nouvelle valeur de puissance 
+		- les "armes" n'affiche pas la nouvelle valeur dû aux code utilisé pour calculer le total ( la puissance augmenterait à chaque fois ce qui engendre des erreurs de puissance de clic).
+
+		P.S: Afin de tester des valeurs arbitraires ont été définies ( 100 % pour le clic et 50 % pour les secondes; bien sur celle-ci seront remise à zero afin de faire des tests complets).
