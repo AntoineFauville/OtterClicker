@@ -40,11 +40,11 @@ public class AutoItems : MonoBehaviour {
 
         if (click.gold >= cost)
         {
-            GetComponent<Image>().color = affordable;
+            button.color = affordable;
         }
         else
         {
-			GetComponent<Image>().color = standart;
+            button.color = standart;
 		}
 	}
 

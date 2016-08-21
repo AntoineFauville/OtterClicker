@@ -48,19 +48,13 @@ public class ClicUpgrade : MonoBehaviour {
     {
         if (click.gold >= cost)
         {
-            GetComponent<Image>().color = affordable;
+            button.color = affordable;
         }
-        else {
-            GetComponent<Image>().color = standard;
-        }
-
-        if (count <= 0)
+        else
         {
             button.color = standard;
         }
-        else {
-            button.color = affordable;
-        }
+
     }
 
     /* Method to Link objects fixed */
